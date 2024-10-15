@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import { Image } from 'next/image'
 // import { XIcon, CheckCircleIcon } from '@heroicons/react/solid';
 
 const FeaturePage = () => {
@@ -11,7 +10,7 @@ const FeaturePage = () => {
                 <div className='flex items-center justify-center'>
                     <h1 className='font-bold text-6xl text-center'>Share Your Voice <br /> Beyond Just a Tweet</h1>
                 </div>
-                <p className='text-center w-[80%] border mx-auto'>Keep your online presence steady and growing by creating customizable images from your tweets, perfect for Instagram, Facebook, and more.</p>
+                <p className='text-center w-[80%] mx-auto font-semibold'>Keep your online presence steady and growing by creating customizable images from your tweets, perfect for Instagram, Facebook, and more.</p>
                 <div className='flex items-center justify-center gap-6'>
                     <Link href={"#"} className='flex items-center gap-2 p-2 rounded-xl hover:bg-gray-600 hover:text-white'>
                         <Image
@@ -65,15 +64,18 @@ const FeaturePage = () => {
                         <h1 className='text-white'>Floating cards</h1>
                     </div>
                     <div className='bg-blue-500 h-full rounded-b-xl flex items-center justify-center'>
-                        <div className='mx-10 rounded-3xl px-5 py-3'>
+                        <div className='mx-10 rounded-3xl px-5 py-3 bg-white'>
 
 
                             <div className="flex items-center justify-between mb-3">
-                                <div className="flex items-center justify-between space-x-2 border w-full">
+                                <div className="flex items-center justify-between space-x-2 w-full">
                                     {/* Logo */}
-                                    <div>
+                                    <div className='flex gap-2'>
                                         <Image
-                                        src
+                                        src={"/assets/insta.svg"}
+                                        alt='Insta'
+                                        width={32}
+                                        height={32}
                                          />
                                         <div className="flex flex-col">
                                             <span className="font-semibold">Postable</span>

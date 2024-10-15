@@ -1,6 +1,7 @@
+import FeaturePage from "@/components/Feature";
 import HeroPage from "@/components/Hero";
 import Navbar from "@/components/Navbar";
-import FeaturePage from "@/components/Feature";
+import WorkPage from "@/components/Work";
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
       <Navbar />
       <HeroPage />
       <FeaturePage />
-      <HeroPage />
+      <WorkPage />
     </main>
   );
 }

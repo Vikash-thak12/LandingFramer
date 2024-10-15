@@ -4,7 +4,7 @@ const nextConfig = {
         domains: [
           'pbs.twimage.com',  // Add this domain
           'upload.wikimedia.org',  // Example of another domain
-          'example.com', // You can add more domains here
+          'images.unsplash.com', // You can add more domains here
         ],
       },
 };

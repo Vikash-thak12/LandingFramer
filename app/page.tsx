@@ -8,6 +8,7 @@ export default function Home() {
       <Navbar />
       <HeroPage />
       <FeaturePage />
+      <HeroPage />
     </main>
   );
 }

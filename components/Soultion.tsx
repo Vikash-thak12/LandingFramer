@@ -1,15 +1,14 @@
 'use client'
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
-import { ComponentA, ComponentB, ComponentC, } from './solutions/Components';
+import { ComponentA, ComponentB, ComponentC } from './solutions/Components';
 import { ContentA, ContentB, ContentC } from './solutions/Content';
-// import { usePathname } from 'next/navigation';
 
 export const data = [
     { name: "Individual", component: "A", path: "/individual" },
     { name: "Influencers", component: "B", path: "/influencers" },
     { name: "Businesses", component: "C", path: "/businesses" },
-]
+];
 
 const variants = {
     hidden: { opacity: 0, z: -100 },
@@ -21,20 +20,23 @@ const SolutionPage = () => {
     const [currentComponent, setCurrentComponent] = useState('A');
 
     return (
-        <div className='max-w-7xl mx-auto min-h-screen'>
-            <h1 className='font-semibold text-5xl py-5'>One Solution for All!</h1>
-            <div className='flex items-center justify-between'>
-                <div className='w-full py-3 h-96'>
-                    <p className='pb-10 font-semibold text-lg'>Postable helps everyone to share their thoughts across multiple platforms</p>
-                    <div className='flex items-center justify-between bg-[#F2F3F3] border p-2 rounded-2xl'>
+        <div className='max-w-7xl mx-auto min-h-screen px-4 lg:px-10'>
+            <h1 className='font-semibold text-3xl md:text-4xl lg:text-5xl py-5 text-center lg:text-left'>
+                One Solution for All!
+            </h1>
+            <div className='flex flex-col lg:flex-row items-center justify-between'>
+                <div className='w-full lg:w-1/2 py-3 h-auto lg:h-96'>
+                    <p className='pb-6 md:pb-10 font-semibold text-base md:text-lg lg:text-xl text-center lg:text-left'>
+                        Postable helps everyone to share their thoughts across multiple platforms.
+                    </p>
+                    <div className='flex  justify-center lg:justify-between bg-[#F2F3F3] border p-2 rounded-2xl'>
                         {
                             data.map((item, index) => {
-                                // Determine if this is the active component
                                 const isActive = currentComponent === item.component;
 
                                 return (
                                     <button
-                                        className={`px-10 py-4 font-bold rounded-2xl ${isActive ? 'bg-white text-black' : 'bg-transparent text-gray-500'}`}
+                                        className={`px-6 md:px-8 lg:px-10 py-3 md:py-4 font-bold rounded-2xl ${isActive ? 'bg-white text-black' : 'bg-transparent text-gray-500'}`}
                                         key={index}
                                         onClick={() => setCurrentComponent(item.component)}
                                     >
@@ -44,48 +46,48 @@ const SolutionPage = () => {
                             })
                         }
                     </div>
-                    <div>
-                    <AnimatePresence mode="wait">
-                        {currentComponent === 'A' && (
-                            <motion.div
-                                key="A"
-                                variants={variants}
-                                initial="hidden"
-                                animate="enter"
-                                exit="exit"
-                                transition={{ duration: 0.5 }}
-                            >
-                                <ContentA />
-                            </motion.div>
-                        )}
-                        {currentComponent === 'B' && (
-                            <motion.div
-                                key="B"
-                                variants={variants}
-                                initial="hidden"
-                                animate="enter"
-                                exit="exit"
-                                transition={{ duration: 0.5 }}
-                            >
-                                <ContentB />
-                            </motion.div>
-                        )}
-                        {currentComponent === 'C' && (
-                            <motion.div
-                                key="C"
-                                variants={variants}
-                                initial="hidden"
-                                animate="enter"
-                                exit="exit"
-                                transition={{ duration: 0.5 }}
-                            >
-                                <ContentC />
-                            </motion.div>
-                        )}
-                    </AnimatePresence>
+                    <div className='mt-6'>
+                        <AnimatePresence mode="wait">
+                            {currentComponent === 'A' && (
+                                <motion.div
+                                    key="A"
+                                    variants={variants}
+                                    initial="hidden"
+                                    animate="enter"
+                                    exit="exit"
+                                    transition={{ duration: 0.5 }}
+                                >
+                                    <ContentA />
+                                </motion.div>
+                            )}
+                            {currentComponent === 'B' && (
+                                <motion.div
+                                    key="B"
+                                    variants={variants}
+                                    initial="hidden"
+                                    animate="enter"
+                                    exit="exit"
+                                    transition={{ duration: 0.5 }}
+                                >
+                                    <ContentB />
+                                </motion.div>
+                            )}
+                            {currentComponent === 'C' && (
+                                <motion.div
+                                    key="C"
+                                    variants={variants}
+                                    initial="hidden"
+                                    animate="enter"
+                                    exit="exit"
+                                    transition={{ duration: 0.5 }}
+                                >
+                                    <ContentC />
+                                </motion.div>
+                            )}
+                        </AnimatePresence>
                     </div>
                 </div>
-                <div className='w-full h-96 flex items-center justify-center p-10 '>
+                <div className='w-full lg:w-1/2 h-auto lg:h-96 flex items-center justify-center p-6 lg:p-10 mt-10 lg:mt-0'>
                     <AnimatePresence mode="wait">
                         {currentComponent === 'A' && (
                             <motion.div
@@ -94,7 +96,7 @@ const SolutionPage = () => {
                                 initial="hidden"
                                 animate="enter"
                                 exit="exit"
-                                transition={{ duration: 0.5}}
+                                transition={{ duration: 0.5 }}
                             >
                                 <ComponentA />
                             </motion.div>
@@ -106,7 +108,7 @@ const SolutionPage = () => {
                                 initial="hidden"
                                 animate="enter"
                                 exit="exit"
-                                transition={{ duration: 0.5}}
+                                transition={{ duration: 0.5 }}
                             >
                                 <ComponentB />
                             </motion.div>
@@ -118,7 +120,7 @@ const SolutionPage = () => {
                                 initial="hidden"
                                 animate="enter"
                                 exit="exit"
-                                transition={{ duration: 0.5}}
+                                transition={{ duration: 0.5 }}
                             >
                                 <ComponentC />
                             </motion.div>

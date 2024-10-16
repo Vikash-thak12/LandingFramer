@@ -4,6 +4,8 @@ import WorkPage from "@/components/Work";
 import SecondPage from "@/components/Second";
 import FeaturePage from "@/components/Feature";
 import SolutionPage from "@/components/Soultion";
+import AudiencePage from "@/components/Audience";
+import QuestionPage from "@/components/Question";
 
 export default function Home() {
   return (
@@ -14,7 +16,8 @@ export default function Home() {
       <WorkPage />
       <FeaturePage />
       <SolutionPage />
-      {/* <LastPage /> */}
+      <AudiencePage />
+      <QuestionPage />
     </main>
   );
 }

@@ -29,14 +29,14 @@ const SolutionPage = () => {
                     <p className='pb-6 md:pb-10 font-semibold text-base md:text-lg lg:text-xl text-center lg:text-left'>
                         Postable helps everyone to share their thoughts across multiple platforms.
                     </p>
-                    <div className='flex  justify-center lg:justify-between bg-[#F2F3F3] border p-2 rounded-2xl'>
+                    <div className='flex justify-center lg:justify-between bg-[#F2F3F3] border p-2 rounded-2xl'>
                         {
                             data.map((item, index) => {
                                 const isActive = currentComponent === item.component;
 
                                 return (
                                     <button
-                                        className={`px-6 md:px-8 lg:px-10 py-3 md:py-4 font-bold rounded-2xl ${isActive ? 'bg-white text-black' : 'bg-transparent text-gray-500'}`}
+                                        className={`px-5 md:px-8 lg:px-10 py-3 md:py-4 font-bold rounded-2xl ${isActive ? 'bg-white text-black' : 'bg-transparent text-gray-500'}`}
                                         key={index}
                                         onClick={() => setCurrentComponent(item.component)}
                                     >

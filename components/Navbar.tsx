@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Navbar = () => {
     return (
         <>
-            <nav className='bg-[#262525] border py-4 max-w-3xl mx-auto fixed right-0 left-0 mt-5 rounded-2xl flex items-center z-50'>
+            <nav className='bg-[#262525] border py-4 max-w-3xl mx-2 md:mx-auto fixed right-0 left-0 mt-5 rounded-2xl flex items-center z-50'>
                 <div>
                     <h1 className='text-white font-bold text-3xl px-8'>Postable</h1>
                 </div>

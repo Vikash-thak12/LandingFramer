@@ -6,6 +6,7 @@ import FeaturePage from "@/components/Feature";
 import SolutionPage from "@/components/Soultion";
 import AudiencePage from "@/components/Audience";
 import QuestionPage from "@/components/Question";
+import SecondLastPage from "@/components/SecondLast";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <SolutionPage />
       <AudiencePage />
       <QuestionPage />
+      <SecondLastPage />
     </main>
   );
 }

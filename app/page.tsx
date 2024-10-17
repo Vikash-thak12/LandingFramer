@@ -15,7 +15,7 @@ export default function Home() {
       <Navbar />
       <HeroPage />
       <SecondPage />
-      <WorkPage />
+      {/* <WorkPage /> */}
       <FeaturePage />
       <SolutionPage />
       <AudiencePage />

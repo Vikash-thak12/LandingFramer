@@ -7,15 +7,15 @@ const SecondLastPage = () => {
         window.scrollTo({ top: 0, behavior: "smooth"})
     }
   return (
-    <div className='bg-[#121010] min-h-screen rounded-[64px] p-10'>
-      <div className='text-white text-center max-w-[50%] mx-auto'>
-        <h1 className='text-6xl font-bold'>One-Click to Create</h1>
+    <div className='bg-[#121010] mt-5 md:min-h-screen rounded-[64px] p-5 md:p-10'>
+      <div className='text-white text-center md:max-w-[50%] mx-auto'>
+        <h1 className='text-2xl md:text-4xl lg:text-6xl font-bold'>One-Click to Create</h1>
         <p className='text-neutral-500 font-bold text-balance leading-relaxed py-5'>Postable is built with simplicity and fun at its core. No design skills? No problem. We handle the heavy lifting so you can effortlessly create stunning posts.</p>
         <button 
                 className='border rounded-xl bg-black w-auto inline-flex items-center gap-1 mt-5 px-5 py-2'
                 onClick={scrollToTop} 
             >
-                <span className='text-xl font-bold text-white'>Get Started for Free</span>
+                <span className='text-lg md:text-xl font-bold text-white'>Get Started for Free</span>
                 <Image
                     src={"/assets/arrow.svg"}
                     width={20}

@@ -34,7 +34,7 @@ import { AccordionDemo } from './AccordionDemo';
 
 const QuestionPage = () => {
     return (
-        <div className='min-h-screen relative w-full max-w-7xl mx-auto'>
+        <div className='md:min-h-screen relative w-full max-w-7xl mx-auto mb-5'>
             <div className='w-full px-4 md:px-10 lg:px-20'>
                 <div className='pt-10 md:px-5 lg:px-10 w-full md:w-2/3 lg:w-1/2'>
                     <h1 className='text-2xl md:text-3xl lg:text-4xl font-bold'>FAQ</h1>

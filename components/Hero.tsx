@@ -3,8 +3,8 @@ import React from 'react'
 
 const HeroPage = () => {
     return (
-        <main className='min-h-screen flex flex-col items-center justify-center max-w-7xl mx-auto'>
-            <div className='px-10 flex flex-col gap-12 items-center justify-center md:mt-40'>
+        <main className='py-12 flex flex-col items-center justify-center max-w-7xl mx-auto'>
+            <div className='px-10 flex flex-col gap-12 items-center justify-cente mt-20 md:mt-40'>
                 <div>
                     <h1 className='font-bold text-3xl md:text-6xl lg:text-7xl text-center'>Convert Tweets <br /> into Engaging Social <br /> Media Posts, Instantly!</h1>
                 </div>

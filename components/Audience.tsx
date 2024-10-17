@@ -10,22 +10,22 @@ const AudiencePage = () => {
 
     return (
         <>
-        <div className='max-w-7xl mx-auto my-10'>
-            <h1 className='text-5xl font-bold'>
+        <div className='max-w-7xl mx-auto my-10 px-5'>
+            <h1 className='text-2xl md:text-5xl font-bold'>
                 Grow your audience with powerful visuals <br />
                 <span className='text-gray-300'>shared across all your social media platforms.</span>
             </h1>
             <button 
-                className='border p-3 rounded-xl bg-black flex items-center gap-1 mt-20'
+                className='border p-3 rounded-xl bg-black flex items-center gap-1 mt-10'
                 onClick={scrollToTop} 
             >
-                <span className='text-xl font-bold text-white'>Get Started for Free</span>
+                <span className='text-base md:text-xl font-bold text-white'>Get Started for Free</span>
                 <Image
                     src={"/assets/arrow.svg"}
                     width={20}
                     height={20}
                     alt='Arrow'
-                    className='mt-2'
+                    className='mt-1'
                 />
             </button>
 

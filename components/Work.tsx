@@ -23,16 +23,14 @@ const WorkPage = () => {
     },
   ];
   return (
-    <div className='mt-20 mb-5 px-10 max-w-7xl mx-auto min-h-screen'>
-      <h1 className='font-bold text-4xl'>How it Works?</h1>
-      <div className='grid grid-cols-1 md:grid-cols-3 gap-5'>
+    <div className='px-2 md:px-10 max-w-7xl mx-auto -mt-48 md:mt-10'>
+      <h1 className='font-bold text-2xl md:text-5xl -mb-14 md:mb-0'>How it Works?</h1>
+      <div className='grid grid-cols-1 md:grid-cols-3 md:gap-5'>
         {
           cardData.map((card, index) => (
             <ThreeDCardDemo key={index} src={card.src} step={card.step} title={card.title} content={card.content} />
           ))
         }
-        {/* <ThreeDCardDemo />
-        <ThreeDCardDemo /> */}
       </div>
     </div>
   )

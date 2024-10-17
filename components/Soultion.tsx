@@ -87,7 +87,7 @@ const SolutionPage = () => {
                         </AnimatePresence>
                     </div>
                 </div>
-                <div className='w-full lg:w-1/2 h-auto lg:h-96 flex items-center justify-center p-6 lg:p-10 mt-10 lg:mt-0'>
+                <div className='w-full lg:w-1/2 h-72 lg:h-96 flex items-center justify-center lg:p-10 mt-5 lg:mt-0'>
                     <AnimatePresence mode="wait">
                         {currentComponent === 'A' && (
                             <motion.div

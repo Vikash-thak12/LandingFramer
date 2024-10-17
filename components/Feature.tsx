@@ -4,8 +4,7 @@ import { AppleCardsCarouselDemo } from './AppleCardsCarouselDemo'
 
 const FeaturePage = () => {
   return (
-    <div className='max-w-7xl mx-auto min-h-screen'>
-      {/* <h1>Our Features</h1> */}
+    <div className='max-w-7xl mx-auto'>
       <AppleCardsCarouselDemo />
     </div>
   )

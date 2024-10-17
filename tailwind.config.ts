@@ -9,7 +9,11 @@ const config: Config = {
   ],
   theme: {
   	extend: {
+		backgroundImage: {
+			'custom-gradient': 'linear-gradient(43deg, #9c4da1 0%, #d61fcb 46%, #ba70ff 100%)',
+		  },
   		colors: {
+			customPurple: 'rgb(186, 67, 254)',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {

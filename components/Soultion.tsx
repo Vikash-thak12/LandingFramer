@@ -29,14 +29,14 @@ const SolutionPage = () => {
                     <p className='pb-6 md:pb-10 font-semibold text-base md:text-lg lg:text-xl text-center lg:text-left'>
                         Postable helps everyone to share their thoughts across multiple platforms.
                     </p>
-                    <div className='flex justify-center lg:justify-between bg-[#F2F3F3] border p-2 rounded-2xl'>
+                    <div className='flex justify-center gap-2 lg:justify-between bg-[#F2F3F3] border p-2 rounded-2xl border-black'>
                         {
                             data.map((item, index) => {
                                 const isActive = currentComponent === item.component;
 
                                 return (
                                     <button
-                                        className={`px-5 md:px-8 lg:px-10 py-3 md:py-4 font-bold rounded-2xl ${isActive ? 'bg-white text-black' : 'bg-transparent text-gray-500'}`}
+                                        className={`px-3 md:px-8 lg:px-10 py-3 md:py-4 font-bold rounded-2xl text-sm ${isActive ? 'bg-white text-black' : 'bg-transparent text-gray-500'}`}
                                         key={index}
                                         onClick={() => setCurrentComponent(item.component)}
                                     >
@@ -87,7 +87,7 @@ const SolutionPage = () => {
                         </AnimatePresence>
                     </div>
                 </div>
-                <div className='w-full lg:w-1/2 h-72 lg:h-96 flex items-center justify-center lg:p-10 mt-5 lg:mt-0'>
+                <div className='w-full lg:w-1/2 h-72 lg:h-96 flex items-center justify-center lg:p-10 mt-5 lg:mt-0 border border-black'>
                     <AnimatePresence mode="wait">
                         {currentComponent === 'A' && (
                             <motion.div

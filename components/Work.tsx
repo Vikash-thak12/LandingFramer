@@ -23,7 +23,7 @@ const WorkPage = () => {
     },
   ];
   return (
-    <div className='px-2 md:px-10 max-w-7xl mx-auto -mt-48 md:mt-10'>
+    <div className='px-2 md:px-10 max-w-7xl mx-auto -mt-16 md:mt-10'>
       <h1 className='font-bold text-2xl md:text-5xl -mb-14 md:mb-0'>How it Works?</h1>
       <div className='grid grid-cols-1 md:grid-cols-3 md:gap-5'>
         {

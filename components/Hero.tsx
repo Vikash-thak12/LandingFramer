@@ -13,7 +13,7 @@ const HeroPage = () => {
                 <div className='flex flex-col items-center justify-center gap-5 w-full'>
 
                 
-                <div className="flex items-center gap-5 justify-center shadow-xl border-2 border-neutral-100 rounded-xl mx-3 py-2 w-[90%] ml-4 px-2">
+                <div className="flex items-center gap-5 justify-center shadow-xl border-2 border-neutral-100 rounded-xl mx-3 py-2 w-full md:w-[90%] ml-4 px-2">
                     <input
                         type="text"
                         placeholder="Paste tweet link here..."

@@ -7,7 +7,7 @@ import React from 'react'
 const SecondPage = () => {
     return (
         <div className='h-screen'>
-            <div className='relative md:w-[60%] h-[60%] md:h-[80%] mx-auto rounded-3xl md:rounded-[70px] p-5 my-background flex flex-col gap-5 md:gap-5'>
+            <div className='relative md:w-[60%] h-[80%] md:h-[80%] mx-auto rounded-3xl md:rounded-[70px] p-5 my-background flex flex-col gap-5 md:gap-5'>
                 <div className='flex items-center justify-center md:mt-10'>
                     <h1 className='font-bold text-xl md:text-5xl text-center'>Share Your Voice <br /> Beyond Just a Tweet</h1>
                 </div>
@@ -53,7 +53,7 @@ const SecondPage = () => {
 
 
                 {/* floating cards */}
-                <div className='absolute -bottom-12 md:-bottom-20 left-1/2 transform -translate-x-1/2 min-w-96 rounded-xl h-72'>
+                <div className='absolute -bottom-2 md:-bottom-20 left-1/2 transform -translate-x-1/2 min-w-80 rounded-xl h-72'>
                     <div className='border-b px-5 py-3 flex items-center gap-2 bg-gray-400 rounded-t-xl'>
                         <Image
                             src={"/assets/insta.svg"}

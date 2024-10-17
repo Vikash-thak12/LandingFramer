@@ -29,7 +29,7 @@ const LastOnePage = () => {
             </div>
             <div className='h-[2px] w-full bg-gray-600 mt-5'></div>
             <div>
-                <div className='grid grid-cols-2 md:grid-cols-6 gap-10 my-10'>
+                <div className='grid grid-cols-2 md:grid-cols-6 gap-2 md:gap-10 my-10'>
                     <a
                         className="flex items-center gap-4 rounded-lg px-2 py-2 bg-[#9b2e99] hover:bg-[#622761]"
                         target="_blank"
@@ -43,7 +43,7 @@ const LastOnePage = () => {
                          />
                         <div>
                             <div className="line-clamp-1 block text-xs font-semibold text-white/80">Follow us on</div>
-                            <span className="block text-lg font-bold text-white">X / Twitter</span>
+                            <span className="block text-sm font-bold text-white">X / Twitter</span>
                         </div>
                     </a>
 
@@ -61,7 +61,7 @@ const LastOnePage = () => {
 
                         <div>
                             <div className="line-clamp-1 block text-xs font-semibold text-white/80">Follow us on</div>
-                            <span className="block text-lg font-bold text-white">Instagram</span>
+                            <span className="block text-sm font-bold text-white">Instagram</span>
                         </div>
                     </a>
 
@@ -80,7 +80,7 @@ const LastOnePage = () => {
                          
                         <div>
                             <div className="line-clamp-1 block text-xs font-semibold text-white/80">Join Community</div>
-                            <span className="block text-lg font-bold text-white">Discord</span>
+                            <span className="block text-sm font-bold text-white">Discord</span>
                         </div>
                     </a>
 
@@ -97,7 +97,7 @@ const LastOnePage = () => {
                          />
                         <div>
                             <div className="line-clamp-1 block text-xs font-semibold text-white/80">Support Us</div>
-                            <span className="block text-lg font-bold text-white">Buy Coffee</span>
+                            <span className="block text-sm font-bold text-white">Buy Coffee</span>
                         </div>
                     </a>
 

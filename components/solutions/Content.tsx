@@ -23,7 +23,7 @@ const dataC = [
 export const ContentA = () => {
     return (
         <div className="relative mt-10">
-            <span className='text-xl text-gray-500'>Postable is perfect for individuals who want to elevate their social media presence without the hassle. Whether you're sharing thoughts, opinions, or everyday moments, Postable makes it easy to create and share beautiful, impactful posts from your tweets.</span>
+            <span className='text-xl text-gray-500'>Postable is perfect for individuals who want to elevate their social media presence without the hassle. Whether you&apos;re sharing thoughts, opinions, or everyday moments, Postable makes it easy to create and share beautiful, impactful posts from your tweets.</span>
             <ul className='mt-10 block items-center justify-center gap-20'>
                 {
                     dataA.map((item) => (

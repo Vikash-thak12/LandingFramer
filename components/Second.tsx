@@ -12,10 +12,28 @@ const SecondPage = () => {
                     <h1 className='font-bold text-xl md:text-5xl text-center'>Share Your Voice <br /> Beyond Just a Tweet</h1>
                 </div>
                 <p className='text-center max-w-lg mx-auto font-semibold'>Keep your online presence steady and growing by creating customizable images from your tweets, perfect for Instagram, Facebook, and more.</p>
-                <div className='grid grid-cols-2 md:grid-cols-4 md:gap-6 md:max-w-2xl md:mx-auto'>
+                <div className='grid grid-cols-2 md:grid-cols-4 md:gap-6 md:max-w-3xl md:mx-auto'>
                     <Link href={"#"} className='flex items-center gap-2 p-2 rounded-xl hover:bg-gray-600 hover:text-white'>
                         <Image
                             src={"/assets/insta.svg"}
+                            alt='Logo'
+                            width={20}
+                            height={32}
+                        />
+                        <span>Instagram Story</span>
+                    </Link>
+                    <Link href={"#"} className='flex items-center gap-2 p-2 rounded-xl hover:bg-gray-600 hover:text-white'>
+                        <Image
+                            src={"/assets/linkedIn.svg"}
+                            alt='Logo'
+                            width={20}
+                            height={32}
+                        />
+                        <span>LinkedIn Post</span>
+                    </Link>
+                    <Link href={"#"} className='flex items-center gap-2 p-2 rounded-xl hover:bg-gray-600 hover:text-white'>
+                        <Image
+                            src={"/assets/facebook.svg"}
                             alt='Logo'
                             width={20}
                             height={32}
@@ -29,25 +47,7 @@ const SecondPage = () => {
                             width={20}
                             height={32}
                         />
-                        <span>Facebook Post</span>
-                    </Link>
-                    <Link href={"#"} className='flex items-center gap-2 p-2 rounded-xl hover:bg-gray-600 hover:text-white'>
-                        <Image
-                            src={"/assets/insta.svg"}
-                            alt='Logo'
-                            width={20}
-                            height={32}
-                        />
-                        <span>Facebook Post</span>
-                    </Link>
-                    <Link href={"#"} className='flex items-center gap-2 p-2 rounded-xl hover:bg-gray-600 hover:text-white'>
-                        <Image
-                            src={"/assets/insta.svg"}
-                            alt='Logo'
-                            width={20}
-                            height={32}
-                        />
-                        <span>Facebook Post</span>
+                        <span>Instagram Post</span>
                     </Link>
                 </div>
 
@@ -70,13 +70,13 @@ const SecondPage = () => {
 
                             <div className="flex items-center justify-between mb-3">
                                 <div className="flex items-center justify-between space-x-2 w-full">
-                                    <div className='flex gap-2'>
+                                    <div className='flex gap-2 items-center justify-center'>
                                         <Image
-                                        src={"/assets/twitter.svg"}
-                                        alt='Insta'
+                                        src={"/assets/mainlogo.svg"}
+                                        alt='Logo'
                                         width={32}
                                         height={32}
-                                        className='bg-black rounded-2xl'
+                                        className='bg-black rounded-2xl p-2'
                                          />
                                         <div className="flex flex-col">
                                             <span className="font-semibold">Postable</span>

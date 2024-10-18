@@ -4,7 +4,7 @@ import React from 'react'
 
 const LastOnePage = () => {
     return (
-        <div className='md:min-h-screen bg-custom-gradient px-4 md:px-20 py-5 '>
+        <div className='md:min-h-screen bg-custom-gradient px-4 md:px-20 py-5'>
             <div className='flex flex-col gap-10'>
                 <div className='w-full'>
                     <h1 className='text-3xl text-white/60'>We help you to create postable content!</h1>

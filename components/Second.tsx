@@ -1,8 +1,5 @@
-// import { XIcon } from 'lucide-react'
 import Image from 'next/image'
-import Link from 'next/link'
 import React from 'react'
-// import { XIcon, CheckCircleIcon } from '@heroicons/react/solid';
 
 const SecondPage = () => {
     return (
@@ -13,7 +10,7 @@ const SecondPage = () => {
                 </div>
                 <p className='text-center max-w-lg mx-auto font-semibold'>Keep your online presence steady and growing by creating customizable images from your tweets, perfect for Instagram, Facebook, and more.</p>
                 <div className='grid grid-cols-2 md:grid-cols-4 md:gap-6 md:max-w-3xl md:mx-auto'>
-                    <Link href={"#"} className='flex items-center gap-2 p-2 rounded-xl hover:bg-gray-600 hover:text-white'>
+                    <button className='flex items-center gap-2 p-2 rounded-xl hover:bg-gray-600 hover:text-white'>
                         <Image
                             src={"/assets/insta.svg"}
                             alt='Logo'
@@ -21,8 +18,8 @@ const SecondPage = () => {
                             height={32}
                         />
                         <span>Instagram Story</span>
-                    </Link>
-                    <Link href={"#"} className='flex items-center gap-2 p-2 rounded-xl hover:bg-gray-600 hover:text-white'>
+                    </button>
+                    <button className='flex items-center gap-2 p-2 rounded-xl hover:bg-gray-600 hover:text-white'>
                         <Image
                             src={"/assets/linkedIn.svg"}
                             alt='Logo'
@@ -30,8 +27,8 @@ const SecondPage = () => {
                             height={32}
                         />
                         <span>LinkedIn Post</span>
-                    </Link>
-                    <Link href={"#"} className='flex items-center gap-2 p-2 rounded-xl hover:bg-gray-600 hover:text-white'>
+                    </button>
+                    <button className='flex items-center gap-2 p-2 rounded-xl hover:bg-gray-600 hover:text-white'>
                         <Image
                             src={"/assets/facebook.svg"}
                             alt='Logo'
@@ -39,8 +36,8 @@ const SecondPage = () => {
                             height={32}
                         />
                         <span>Facebook Post</span>
-                    </Link>
-                    <Link href={"#"} className='flex items-center gap-2 p-2 rounded-xl hover:bg-gray-600 hover:text-white'>
+                    </button>
+                    <button className='flex items-center gap-2 p-2 rounded-xl hover:bg-gray-600 hover:text-white'>
                         <Image
                             src={"/assets/insta.svg"}
                             alt='Logo'
@@ -48,7 +45,7 @@ const SecondPage = () => {
                             height={32}
                         />
                         <span>Instagram Post</span>
-                    </Link>
+                    </button>
                 </div>
 
 

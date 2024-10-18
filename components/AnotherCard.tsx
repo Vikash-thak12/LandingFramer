@@ -11,7 +11,7 @@ interface ThreeDCardDemoProps {
 const AnotherCard: React.FC<ThreeDCardDemoProps> = ({ src }) => {
   return (
     <CardContainer className="">
-      <CardBody className="relative h-auto rounded-xl p-2 flex items-center justify-center">
+      <CardBody className="relative h-auto rounded-xl p-2 flex items-center justify-center max-w-80">
         <CardItem
         >
           <Image

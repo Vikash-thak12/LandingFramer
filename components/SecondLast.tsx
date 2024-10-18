@@ -8,7 +8,7 @@ const SecondLastPage = () => {
   }
   return (
     <>
-      <div className='bg-[#121010] mt-5 md:min-h-screen rounded-[64px] p-5 md:p-10'>
+      <div className='bg-[#121010] mt-5 md:min-h-screen rounded-t-[64px] p-5 md:p-10'>
         <div className='text-white text-center md:max-w-[50%] mx-auto'>
           <h1 className='text-2xl md:text-4xl lg:text-6xl font-bold'>One-Click to Create</h1>
           <p className='text-neutral-500 font-bold text-balance leading-relaxed py-5'>Postable is built with simplicity and fun at its core. No design skills? No problem. We handle the heavy lifting so you can effortlessly create stunning posts.</p>

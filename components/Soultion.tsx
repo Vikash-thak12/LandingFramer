@@ -36,7 +36,7 @@ const SolutionPage = () => {
 
                                 return (
                                     <button
-                                        className={`px-4 md:px-8 lg:px-10 py-3 md:py-4 font-bold rounded-2xl text-sm ${isActive ? 'bg-white text-black' : 'bg-transparent text-gray-500'}`}
+                                        className={`px-2 md:px-8 lg:px-10 py-3 md:py-4 font-bold rounded-2xl text-sm ${isActive ? 'bg-white text-black' : 'bg-transparent text-gray-500'}`}
                                         key={index}
                                         onClick={() => setCurrentComponent(item.component)}
                                     >
@@ -87,7 +87,9 @@ const SolutionPage = () => {
                         </AnimatePresence>
                     </div>
                 </div>
-                <div className='lg:w-1/2 h-72 lg:h-96 flex items-center justify-center lg:p-10 mt-5 lg:mt-0'>
+
+                {/* Component */}
+                <div className='mx-5 lg:w-1/2 h-72 lg:h-96 flex items-center justify-center lg:p-10 mt-5 lg:mt-0'>
                     <AnimatePresence mode="wait">
                         {currentComponent === 'A' && (
                             <motion.div

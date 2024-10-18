@@ -18,7 +18,7 @@ const HeroPage = () => {
         <main className='py-12 flex flex-col items-center justify-center max-w-7xl mx-auto'>
             <div className='px-10 flex flex-col gap-12 items-center justify-cente mt-20 md:mt-40'>
                 <div>
-                    <h1 className='font-bold text-3xl md:text-6xl lg:text-7xl text-center'>Convert Tweets <br /> into Engaging Social <br /> Media Posts, Instantly!</h1>
+                    <h1 className='font-bold text-2xl md:text-6xl lg:text-7xl text-center'>Convert Tweets <br /> into Engaging Social <br /> Media Posts, Instantly!</h1>
                 </div>
                 <span className='font-semi-bold text-center text-xl md:text-2xl lg:text-3xl'>Paste your tweet link below to get started for FREE</span>
 

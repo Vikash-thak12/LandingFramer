@@ -5,11 +5,12 @@ import React from 'react'
 const LastOnePage = () => {
     return (
         <div className='md:min-h-screen bg-custom-gradient px-4 md:px-20 py-5'>
-            <div className='flex flex-col gap-10'>
-                <div className='w-full'>
+            <div className='flex flex-col md:flex-row md:justify-between gap-10 md:mt-48 mt-20'>
+                <div className='max-w-4xl'>
                     <h1 className='text-3xl text-white/60'>We help you to create postable content!</h1>
                     <p className='max-w-lg font-semibold mt-5 text-white/60'>Postable is a free, unlimited tool designed to empower individuals, influencers, and businesses to amplify their voice and effortlessly create engaging content that go beyond the ordinary.</p>
                 </div>
+                <div className='flex gap-10'>
                 <div>
                     <h2 className='font-bold mb-2 text-white'>Products</h2>
                     <ul className='flex flex-col gap-1'>
@@ -25,6 +26,7 @@ const LastOnePage = () => {
                         <Link className='text-white/60' href={"#"}>Terms And Conditions</Link>
                         <Link className='text-white/60' href={"#"}>Refund Policy</Link>
                     </div>
+                </div>
                 </div>
             </div>
             <div className='h-[2px] w-full bg-gray-600 mt-5'></div>

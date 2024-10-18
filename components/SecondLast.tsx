@@ -38,10 +38,10 @@ const SecondLastPage = () => {
           />
         </div>
       </div>
-      <div className='relative h-[800px]' style={{
+      <div className='relative h-[600px] w-full' style={{
         clipPath: "polygon(0% 0, 100% 0%, 100% 100%, 0 100%)"
       }}>
-        <div className='fixed h-full bottom-0'>
+        <div className='fixed h-full w-full bottom-0'>
         <LastOnePage />
         </div>
       </div>

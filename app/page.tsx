@@ -21,7 +21,7 @@ export default function Home() {
       <AudiencePage />
       <QuestionPage />
       <SecondLastPage />
-      <LastOnePage />
+      {/* <LastOnePage /> */}
     </main>
   );
 }

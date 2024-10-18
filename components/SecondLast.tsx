@@ -1,6 +1,7 @@
 'use client'
 import Image from 'next/image'
 import React from 'react'
+import LastOnePage from './LastOne'
 
 const SecondLastPage = () => {
   const scrollToTop = () => {
@@ -35,6 +36,13 @@ const SecondLastPage = () => {
             height={500}
             className='w-full h-auto'
           />
+        </div>
+      </div>
+      <div className='relative h-[800px]' style={{
+        clipPath: "polygon(0% 0, 100% 0%, 100% 100%, 0 100%)"
+      }}>
+        <div className='fixed h-full bottom-0'>
+        <LastOnePage />
         </div>
       </div>
     </>

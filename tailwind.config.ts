@@ -11,6 +11,7 @@ const config: Config = {
   	extend: {
 		backgroundImage: {
 			'custom-gradient': 'linear-gradient(43deg, #9c4da1 0%, #d61fcb 46%, #ba70ff 100%)',
+			'my-gradient': 'linear-gradient(90deg, rgba(221,140,69,1) 33%, rgba(29,241,253,1) 91%)',
 		  },
   		colors: {
 			customPurple: 'rgb(186, 67, 254)',

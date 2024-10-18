@@ -13,7 +13,7 @@ interface ThreeDCardDemoProps {
 
 const ThreeDCardDemo: React.FC<ThreeDCardDemoProps> = ({ src, step, title, content }) => {
   return (
-    <CardContainer>
+    <CardContainer className="max-w-80">
       <CardBody className="bg-[#F6F7F7] relative min-w-56 h-auto rounded-xl p-2 -mb-36 md:mb-0">
         <CardItem
         >

@@ -7,7 +7,6 @@ import SolutionPage from "@/components/Soultion";
 import AudiencePage from "@/components/Audience";
 import QuestionPage from "@/components/Question";
 import SecondLastPage from "@/components/SecondLast";
-import LastOnePage from "@/components/LastOne";
 
 export default function Home() {
   return (
@@ -21,7 +20,6 @@ export default function Home() {
       <AudiencePage />
       <QuestionPage />
       <SecondLastPage />
-      {/* <LastOnePage /> */}
     </main>
   );
 }
